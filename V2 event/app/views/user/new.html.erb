@@ -1,0 +1,30 @@
+
+<% provide(:title, "Log in") %>
+
+<div class="center jumbotron">
+  <h1>S'inscrire</h1>
+</div>
+
+<div class="bg-light mt-5 p-5 offset-lg-2 col-lg-8 shadow">
+<% if flash[:error] %>
+<div class="alert alert-danger"><%= flash[:error] %></div>
+<% end %>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3 center">
+    <%= form_for(:user, url: create_user_path) do |f| %>
+
+    <div class="form-group">
+      <%= f.label :Pseudo %>
+      <%= f.text_field :name, class: 'form-control' %>
+    </div>
+
+      <%= f.submit "S'inscrire", class: "btn btn-primary" %>
+    <% end %>
+    <br>
+
+    <p><%= link_to "Se connecter!", login_path %></p>
+  </div>
+</div>
+
+</div>
