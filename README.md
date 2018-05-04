@@ -26,4 +26,4 @@ Things you may want to cover:
 
 * lien V2 eventbrite : https://evening-inlet-22430.herokuapp.com/
 
-slack : @tinosam et @Hari
+slack : @tinosam ,@Hari et @itokiana73
