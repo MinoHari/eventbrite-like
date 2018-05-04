@@ -5,13 +5,13 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.5, rails version 2.5
 
-* System dependencies
+* bundle install
 
-* Configuration
+* rails db:migrate
 
-* Database creation
+* rails s
 
 * Database initialization
 
@@ -23,4 +23,7 @@ Things you may want to cover:
 
 * ...
 
-@Tino et @Hari
+
+* lien V2 eventbrite : https://evening-inlet-22430.herokuapp.com/
+
+slack : @tinosam et @Hari
